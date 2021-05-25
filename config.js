@@ -1,11 +1,11 @@
 module.exports = {
-  Admins: ["799247879473463308", "UserID"], //Admins of the bot
+  Admins: ["", "UserID"], //Admins of the bot
   DefaultPrefix: ">", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://dsc.gg/dst74", //Support Server Link
-  Token: "ODQwNjAxMjQzNzgwNTEzODAy.YJak6g.mxK4MQRySYF14wO90JtqUjw2drE" || process.env.Token, //Discord Bot Token
-  ClientID: "840601243780513802", //Discord Client ID
-  ClientSecret: "sIQPvAEdRfokbbLV-UxFTi6h35Ad4XCc", //Discord Client Secret
+  Token: "" || process.env.Token, //Discord Bot Token
+  ClientID: "", //Discord Client ID
+  ClientSecret: "", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   CallbackURL: "/api/callback", //Discord OAuth2 Callback URL
   "24/7": false, //If you want the bot to be stay in the vc 24/7
