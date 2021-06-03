@@ -189,7 +189,7 @@ class DiscordMusicBot extends Client {
                 file.split(".")[0] +
                 ", Reason: File doesn't had run/name/desciption"
             );
-          this.commands.set(file.split(".")[0], cmd);
+          this.commands.set(file.split(".")[0].toLowerCase(), cmd);
           this.log("Command Loaded: " + file.split(".")[0]);
         });
     });
@@ -241,9 +241,9 @@ class DiscordMusicBot extends Client {
 
   build() {
     this.login(this.config.Token);
-    this.http.listen(process.env.PORT || this.config.Port, () =>
-      this.log("Web Server has been started")
-    );
+    if(this.config.ExpressServer){
+      this.http.listen(process.env.PORT || this.config.Port, () => this.log("Web Server has been started"));
+    }
   }
 
   RegisterSlashCommands() {
