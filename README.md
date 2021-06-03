@@ -1,46 +1,39 @@
-<img align="right" src="https://github.com/mrmotchy/stuff/blob/main/4K-monkey-minimalism-7680x4920-WallpaperHook.com-HD-scaled.jpg" height="200" width="300">
+<h1 align="center"><img src="./assets/logo.gif" width="30px"> Discord Music Bot <img src="./assets/logo.gif" width="30px"></h1>
+<p align="center">Thanks for 25k Views with 500 subs!</p>
 
-# el música
+## ✨Latest Updates✨
 
-[![Downloads](https://img.shields.io/github/downloads/jagrosh/MusicBot/total.svg)](https://discord.gg/9ZrzNkzeN4)
-[![Stars](https://img.shields.io/github/stars/jagrosh/MusicBot.svg)](https://discord.gg/9ZrzNkzeN4)
-[![Release](https://img.shields.io/github/release/jagrosh/MusicBot.svg)](https://discord.gg/9ZrzNkzeN4)
-[![License](https://img.shields.io/github/license/jagrosh/MusicBot.svg)](https://discord.gg/9ZrzNkzeN4)
-[![Discord](https://discordapp.com/api/guilds/147698382092238848/widget.png)](https://discord.gg/9ZrzNkzeN4)<br>
-[![CircleCI](https://img.shields.io/circleci/project/github/jagrosh/MusicBot/master.svg)](https://discord.gg/9ZrzNkzeN4)
-[![AppVeyor](https://ci.appveyor.com/api/projects/status/gdu6nyte5psj6xfk/branch/master?svg=true)](https://discord.gg/9ZrzNkzeN4)
-[![CodeFactor](https://www.codefactor.io/repository/github/jagrosh/musicbot/badge)](https://discord.gg/9ZrzNkzeN4)
-
-[![Setup](http://i.imgur.com/VvXYp5j.png)](https://www.youtube.com/channel/UCmkPzf-eAJsiuCh-5kz4Abw)
-
-## Features
-  * Easy to run (just make sure Java is installed, and run!)
-  * Fast loading of songs
-  * No external keys needed (besides a Discord Bot token)
-  * Smooth playback
-  * Server-specific setup for the "DJ" role that can moderate the music
-  * Clean and beautiful menus
-  * Supports many sites, including Youtube, Soundcloud, Spotify and more
-  * Supports many online radio/streams
-  * Supports local files
-  * Playlist support (both web/youtube, and local)
-  * custom server prefix
-
-## Personalized server dashboard
-
-![](https://github.com/mrmotchy/stuff/blob/main/222Unbenannt.PNG)
-  
-  
-## High professional discord music bot made with ❤️ and javascript
-
-![](https://github.com/mrmotchy/stuff/blob/main/Unbenannt.PNG)
-
-## Installation
+> We are graciously waiting for Discord.js to update to v13 (as a stable version) so we can start updating the bot again. We know the bot has some bugs at the moment. 
+>
+> We can't fix all of them right now. Please check out the latest list of updates, improvements, and fixes to be made in version 4.2 in the Discussions section or by clicking [here](https://github.com/SudhanPlayz/Discord-MusicBot/discussions/236)
 
 
- ### Click [here](https://www.youtube.com/channel/UCmkPzf-eAJsiuCh-5kz4Abw) to watch my YouTube video 
+## 📝 Tutorial
 
+A Tutorial has been uploaded on YouTube <img src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube_icon_full-color.svg?cache=f2ec7a5" width="30px"> Watch it by clicking [here](https://www.youtube.com/watch?v=p4lP96Tiv9s)
 
- ### Click here to join my [discord server !](https://dsc.gg/dst74)
+## 📝 [Support Server](https://discord.gg/a9SHDpD)
 
-![](https://github.com/mrmotchy/stuff/blob/main/Unben111annt.PNG)
+Do you have any issues with the bot? Head to our [Discord Server](https://discord.gg/a9SHDpD) where we can help you faster than creating a GitHub issue. If you have a major bug to report, it would be best to create an [issue here](https://github.com/SudhanPlayz/Discord-MusicBot/issues).
+
+## 📸 Screenshots
+
+<div align="left"><img src="/assets/Screenshot_1.png"></div><div align="center"><img src="/assets/Screenshot_2.png"></div><div align="right"><img src="/assets/Screenshot_3.png"></div>
+
+<div align="center"><img src="/assets/Features.png"></div>
+
+## 💨 Run the projects
+
+Glitch: [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/SudhanPlayz/Discord-MusicBot)
+Repl: [![Run on Repl.it](https://repl.it/badge/github/SudhanPlayz/Discord-MusicBot)](https://repl.it/github/SudhanPlayz/Discord-MusicBot)
+Heroku: [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SudhanPlayz/Discord-MusicBot)
+
+## ✨ Contributors
+
+Contributions are always welcomed :D Make sure to follow [Contributing.md](/CONTRIBUTING.md)
+
+<a href="https://github.com/SudhanPlayz/Discord-MusicBot/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=SudhanPlayz/Discord-MusicBot" />
+</a>
+
+Made with :heart: and JavaScript!

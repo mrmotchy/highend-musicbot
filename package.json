@@ -1,6 +1,6 @@
 {
-  "name": "musicbot-by-cptmotchy",
-  "version": "1.0.3",
+  "name": "discord-musicbot",
+  "version": "4.0.0",
   "description": "Very simple discord music bot with the discord.js with Song Name playing. It can able to play music with the song name",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com"
+    "url": "git+https://github.com/SudhanPlayz/Discord-MusicBot.git"
   },
   "engines": {
     "node": "14.x"
@@ -22,34 +22,34 @@
     "music",
     "discord-music"
   ],
-  "author": "cpt.motchy",
+  "author": "SudhanPlayz",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/mrmotchy"
+    "url": "https://github.com/SudhanPlayz/Discord-MusicBot/issues"
   },
-  "homepage": "https://github.com/mrmotchy",
+  "homepage": "https://github.com/SudhanPlayz/Discord-MusicBot#readme",
   "dependencies": {
     "colors": "^1.4.0",
+    "cpu-stat": "^2.0.1",
     "discord.js": "^12.5.3",
-    "erela": "^1.11.2",
-    "erela-exp": "^1.0.0",
-    "erela.js": "^2.3.3",
+    "erela.js": "^2.3.2",
     "express": "^4.17.1",
     "express-session": "^1.17.1",
-    "jsoning": "^0.8.15",
+    "jsoning": "^0.11.0",
     "lavasfy": "^2.1.2",
     "lodash": "^4.17.21",
     "lyrics-finder": "^21.7.0",
-    "mongoose": "^5.12.10",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^5.12.3",
     "node-fetch": "^2.6.1",
     "passport": "^0.4.1",
     "passport-discord": "^0.1.4",
     "pretty-ms": "^7.0.1",
-    "socket.io": "^4.1.2",
-    "winston": "^3.3.3",
-    "ytdl-core": "^4.8.0"
+    "socket.io": "^4.0.1",
+    "winston": "^3.3.3"
   },
   "devDependencies": {
-    "prettier": "2.2.1"
+    "prettier": "2.3.0"
   }
 }
