@@ -5,7 +5,7 @@ const _ = require("lodash");
 
 module.exports = {
   name: "lyrics",
-  description: "To get and search lyrics of a song",
+  description: "Shows the lyrics of the song searched",
   usage: "[Song Name]",
   permissions: {
     channel: ["VIEW_CHANNEL", "SEND_MESSAGES", "EMBED_LINKS"],
@@ -25,18 +25,15 @@ module.exports = {
     let SearchString = args.join(" ");
     if (!args[0] && !player) return client.sendTime(message.channel, "❌ | **Nothing is playing right now...**");
     if (!args[0]) SongTitle = player.queue.current.title;
-    if (!args[0]) SongURL = player.queue.current.uri;
 
     let lyrics = await lyricsFinder(SongTitle);
     if (!lyrics) return client.sendTime(message.channel, `**No lyrics found for -** \`${SongTitle}\``);
     lyrics = lyrics.split("\n"); //spliting into lines
-    let SplitedLyrics = _.chunk(lyrics, 45); //45 lines each page
+    let SplitedLyrics = _.chunk(lyrics, 40); //45 lines each page
 
     let Pages = SplitedLyrics.map((ly) => {
       let em = new MessageEmbed()
-        .setAuthor("Lyrics for:", client.config.IconURL)
-        .setTitle(SongTitle)
-        .setURL(SearchString)
+        .setAuthor(`Lyrics for: ${SongTitle}`, client.config.IconURL)
         .setColor("RANDOM")
         .setDescription(ly.join("\n"));
 
@@ -55,7 +52,7 @@ module.exports = {
         name: "song",
         value: "song",
         type: 3,
-        description: "Get the lyrics of a song",
+        description: "Enter a song name to search",
         required: false,
       },
     ],
@@ -73,17 +70,16 @@ module.exports = {
       if (!interaction.data.options && !player) return client.sendTime(interaction, "❌ | **Nothing is playing right now...**");
 
       SongTitle = interaction.data.options ? interaction.data.options[0].value : player.queue.current.title;
-      SongURL = interaction.data.options ? interaction.data.options[0].value : player.queue.current.uri;
       let lyrics = await lyricsFinder(SongTitle);
-      console.log(lyrics.length == 0)
-      if (lyrics.length == 0)
+      console.log(lyrics.length === 0)
+      if (lyrics.length === 0)
         return client.sendTime(interaction, `**No lyrics found for -** \`${SongTitle}\``);
       lyrics = lyrics.split("\n"); //spliting into lines
-      let SplitedLyrics = _.chunk(lyrics, 45); //45 lines each page
+      let SplitedLyrics = _.chunk(lyrics, 40); //45 lines each page
 
       let Pages = SplitedLyrics.map((ly) => {
         let em = new MessageEmbed()
-          .setAuthor(SongTitle + "  — Lyrics", client.config.IconURL)
+          .setAuthor(`Lyrics for: ${SongTitle}`, client.config.IconURL)
           .setColor("RANDOM")
           .setDescription(ly.join("\n"));
 
