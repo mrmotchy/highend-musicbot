@@ -14,11 +14,11 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css"
     />
   </head>
   <body>
@@ -81,7 +81,7 @@
       <!-- Hero entry 👌 -->
       <div class="hero">
         <div id="hero" class="text-center">
-          <h1>el música</h1>
+          <h1>Discord Music Bot</h1>
           <p>
             An advanced discord music bot, supports Spotify, Soundcloud, YouTube
             with Shuffling, Volume Control and Web Dashboard!
@@ -98,7 +98,7 @@
               <div class="header-section">
                 <h2 class="title">Exclusive <span>Features</span></h2>
                 <p class="description">
-                  There are many Features in el música! Every awesome
+                  There are many Features in discord music bot! Every awesome
                   features of this bot has been descirbed below check it out 😉
                 </p>
               </div>
@@ -146,7 +146,6 @@
                 </div>
               </div>
             </div>
-            <iframe src="https://discord.com/widget?id=660816060164997139&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
           </div>
         </div>
       </div>
@@ -178,14 +177,13 @@
               <div class="copyright-text">
                 <p>
                   © 2021
-                  <a href="https://github.com/mrmotchy"
+                  <a href="//github.com/SudhanPlayz/Discord-MusicBot"
                     >Discord Music Bot</a
                   >. All rights reserved. Made by
-                  <a href="https://github.com/mrmotchy">cpt.motchy</a> -Join our 
+                  <a href="//github.com/SudhanPlayz">Sudhan</a> and its
                   <a
-                   href="https://discord.gg/ntcZN4Y35R"
-                    >discord server</a
-
+                    href="//github.com/SudhanPlayz/Discord-MusicBot/graphs/contributors"
+                    >contributers</a
                   >
                 </p>
               </div>
@@ -361,7 +359,7 @@
     }
 
     .footer {
-      background: #8A0868;
+      background: #192027;
       text-align: center;
       padding: 32px 0;
     }
@@ -405,7 +403,7 @@
         //check api/routes.js
         let url = `https://discord.com/oauth2/authorize?client_id=${
           data.ClientID
-        }&permissions=${data.Permissions}&scope=${data.Scopes.join("%20")}&redirect_url=${data.Website}${data.CallbackURL}&response_type=code`;
+        }&permissions=${data.Permissions}&scope=${data.Scopes.join("%20")}&redirect_uri=${data.Website}${data.CallbackURL}&response_type=code`;
         
         $("#hero").append(`<a href="${url}" class="btn btn-primary" type="button">Invite</a>
             <a href="/dashboard" class="btn btn-outline-primary" type="button">Dashboard</a>`);
