@@ -14,7 +14,7 @@
 [![Setup](http://i.imgur.com/VvXYp5j.png)](https://www.youtube.com/channel/UCmkPzf-eAJsiuCh-5kz4Abw)
 
 ## Features
-  * Easy to run (just make sure JavaScript is installed on your computer, and run!)
+  * Easy to run (Simply [download Node.js](https://nodejs.org/))
   * Fast loading of songs
   * No external keys needed (besides a Discord Bot token)
   * Smooth playback
